@@ -1,4 +1,4 @@
-name: build java app
+name: test composite action
 
 on: workflow_dispatch
 
