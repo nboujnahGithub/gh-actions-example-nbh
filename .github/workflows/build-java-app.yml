@@ -24,6 +24,6 @@ jobs:
         with:
           path: /home/runner/work/gh-actions-example-nbh/gh-actions-example-nbh/java-app/target/
       - name: Publish to GitHub Packages
-        run: mvn --batch-mode deploy
+        run: mvn --batch-mode deploy --file java-app/pom.xml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
