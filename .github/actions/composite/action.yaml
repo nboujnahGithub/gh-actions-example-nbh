@@ -7,7 +7,7 @@ inputs:
     default: false
   working-directory:
     required: false
-    default: ''
+    default: '/home/runner/work/gh-actions-example-nbh/gh-actions-example-nbh/'
 
 runs:
   using: "composite"
