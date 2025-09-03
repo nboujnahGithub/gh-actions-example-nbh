@@ -8,5 +8,5 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: ./.github/actions/action.yaml
+      - uses: ./.github/actions/composite
         name: Test my composite action
