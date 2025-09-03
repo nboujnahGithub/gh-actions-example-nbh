@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: nboujnahGithub/gh-actions-example-nbh/.github/actions/action.yml@main
+      - uses: ./.github/actions/action.yml@main
         name: Test my composite action
